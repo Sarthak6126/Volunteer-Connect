@@ -96,7 +96,7 @@
                     </li>
                     <?php endif; ?>
                 </ul>
-                <button class="border-2 border-white rounded-full px-4 py-1 text-white bg-gray-800 w-fit ml-4" id="mod-lap ">Dark</button>
+                <!-- <button class="border-2 border-white rounded-full px-4 py-1 text-white bg-gray-800 w-fit ml-4" id="mod-lap ">Dark</button> -->
             </div>
         </div>
     </nav>

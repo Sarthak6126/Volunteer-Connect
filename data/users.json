@@ -46,5 +46,27 @@
         "user_type": "volunteer",
         "created_at": "2025-04-16 23:17:35",
         "profile": []
+    },
+    {
+        "id": 4,
+        "email": "sarthak@gmail.com",
+        "password": "$2y$10$R9uwlrxIRoG0EZusljlsAeZCWGjjyj9XVIba0XJ1P9y3tCXYy3\/iO",
+        "first_name": "sarthak",
+        "last_name": "beri",
+        "user_type": "volunteer",
+        "created_at": "2025-04-17 00:47:56",
+        "profile": []
+    },
+    {
+        "id": 5,
+        "email": "ashish@gmail.com",
+        "password": "$2y$10$H9eacqXgpEpnsNVQqskL\/.20L3sjyJgZ1zu8wrWlT\/86O8hHSinle",
+        "first_name": "sart",
+        "last_name": "beri",
+        "user_type": "organization",
+        "created_at": "2025-04-17 00:54:44",
+        "profile": {
+            "organization_id": "1"
+        }
     }
 ]

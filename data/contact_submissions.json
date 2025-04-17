@@ -48,6 +48,25 @@
         "organization_id": "",
         "submission_date": "2023-02-10 10:12:53",
         "status": "new"
+    },
+    {
+        "name": "ssssssss",
+        "email": "ashish@gmail.com",
+        "subject": "AI",
+        "message": "asdfasddfasdfasdf",
+        "organization_id": "",
+        "id": 6,
+        "submission_date": "2025-04-17 00:59:35",
+        "status": "new"
+    },
+    {
+        "name": "Ashish",
+        "email": "ashish@gmail.com",
+        "subject": "quary",
+        "message": "fchg hgv ghvhjv gfh",
+        "organization_id": "",
+        "id": 7,
+        "submission_date": "2025-04-17 01:55:26",
+        "status": "new"
     }
-    
 ]

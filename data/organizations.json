@@ -126,5 +126,49 @@
             "twitter": "https:\/\/twitter.com\/trailswildernessin",
             "instagram": "https:\/\/instagram.com\/trailsandwildernessindia"
         }
+    },
+    {
+        "id": 898,
+        "name": "ikiol",
+        "primary_category_id": 1,
+        "categories": [
+            1
+        ],
+        "location": "Ahmedabad, Gujarat",
+        "description": "lopl[po;[",
+        "mission": ";o[;o[;[",
+        "impact": "uiokokp",
+        "website": "https:\/\/lpucolab438.examly.io\/mycourses?type=mycourses",
+        "email": "ashish@gmail.com",
+        "phone": "+916266928927",
+        "founded_year": "2009",
+        "social_media": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+        },
+        "date_added": "2025-04-17 06:56:14"
+    },
+    {
+        "id": 12344,
+        "name": "Community Food Bank India",
+        "primary_category_id": 3,
+        "categories": [
+            4
+        ],
+        "location": "Bengaluru, Karnataka",
+        "description": "To alleviate hunger in our community by providing nutritious food to those in need.",
+        "mission": "To alleviate hunger in our community by providing nutritious food to those in need.",
+        "impact": "Distributed over 3 million kilograms of food, served 15,000+ individuals monthly, and operated 20+ food pantries.",
+        "website": "http:\/\/localhost\/PHPScript\/VOLUNTEER%20PROJECTN\/addorg.php",
+        "email": "ashish@gmail.com",
+        "phone": "+916266928927",
+        "founded_year": "2023",
+        "social_media": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+        },
+        "date_added": "2025-04-17 07:41:05"
     }
 ]
