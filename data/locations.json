@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "City Center",
+    "description": "Heart of the city with dense commercial areas, government buildings, and cultural landmarks."
+  },
+  {
+    "id": 2,
+    "name": "Central Business District",
+    "description": "Core commercial area featuring offices, shopping complexes, and urban residences."
+  },
+  {
+    "id": 3,
+    "name": "East Delhi Zone",
+    "description": "Eastern side of the city known for its residential colonies and local markets."
+  },
+  {
+    "id": 4,
+    "name": "West Delhi Zone",
+    "description": "Western part of the city with mixed-use areas and industrial hubs."
+  },
+  {
+    "id": 5,
+    "name": "North Delhi Zone",
+    "description": "Northern region with historic areas, residential neighborhoods, and parks."
+  },
+  {
+    "id": 6,
+    "name": "South Delhi Zone",
+    "description": "Southern part known for upscale residential areas, malls, and educational institutions."
+  },
+  {
+    "id": 7,
+    "name": "Northwest Suburb",
+    "description": "Developing region with residential projects, green belts, and educational centers."
+  },
+  {
+    "id": 8,
+    "name": "Southwest Suburb",
+    "description": "Emerging area with housing societies, shopping complexes, and connectivity to airport."
+  },
+  {
+    "id": 9,
+    "name": "Northeast Zone",
+    "description": "Area with a mix of older colonies and growing infrastructure."
+  },
+  {
+    "id": 10,
+    "name": "Southeast Zone",
+    "description": "Residential and commercial areas with cultural diversity and improving civic amenities."
+  },
+  {
+    "id": 11,
+    "name": "Remote/Online",
+    "description": "Work or participation options available online, accessible from any location in India."
+  },
+  {
+    "id": 12,
+    "name": "Across City",
+    "description": "Opportunities or services that operate in multiple zones throughout the city."
+  }
+]

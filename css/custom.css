@@ -1,0 +1,201 @@
+/* Custom styles for Volunteer Connect website */
+
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+/* Set line-height for better readability */
+p {
+    line-height: 1.6;
+}
+
+/* Card hover effects */
+.hover\:shadow-lg:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Custom button hover effect */
+.bg-teal-600.hover\:bg-teal-700:hover {
+    transform: translateY(-1px);
+}
+
+/* Text truncation for cards */
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: A2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Form styling */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #0d9488;
+    box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.2);
+}
+
+/* Form validation styling */
+input:invalid, select:invalid, textarea:invalid {
+    border-color: #ef4444;
+}
+
+.form-error {
+    color: #ef4444;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+/* Loading spinner */
+.loading-spinner {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 3px solid rgba(20, 184, 166, 0.3);
+    border-radius: 50%;
+    border-top-color: #0d9488;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Accessibility improvements */
+a:focus, button:focus {
+    outline: 2px solid #0d9488;
+    outline-offset: 2px;
+}
+
+/* Skip to content link for accessibility */
+.skip-to-content {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: white;
+    color: #0d9488;
+    text-decoration: none;
+}
+
+.skip-to-content:focus {
+    left: 0;
+    top: 0;
+}
+
+/* Required field indicator */
+.required-field::after {
+    content: "*";
+    color: #ef4444;
+    margin-left: 0.25rem;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0d9488;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0f766e;
+}
+
+/* Mobile menu animation */
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.mobile-menu-open {
+    display: block;
+    animation: slideDown 0.3s ease forwards;
+}
+
+/* Enhanced card styling */
+.card-body {
+    transition: all 0.3s ease;
+}
+
+.card-body:hover {
+    background-color: #f9fafb;
+}
+
+/* Custom badge styling */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 9999px;
+}
+
+.badge-teal {
+    background-color: #ccfbf1;
+    color: #115e59;
+}
+
+.badge-blue {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+/* Form feedback messages */
+.success-message {
+    background-color: #d1fae5;
+    border-left: 4px solid #10b981;
+    padding: 1rem;
+    color: #065f46;
+}
+
+.error-message {
+    background-color: #fee2e2;
+    border-left: 4px solid #ef4444;
+    padding: 1rem;
+    color: #b91c1c;
+}
+
+/* Focus styles for accessibility */
+.focus\:outline-teal:focus {
+    outline: 2px solid #0d9488;
+    outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+    header, footer, .no-print {
+        display: none;
+    }
+    
+    body {
+        background-color: white;
+        color: black;
+    }
+    
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}

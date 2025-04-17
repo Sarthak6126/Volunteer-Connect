@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Museum Docent",
+        "organization_id": 9,
+        "category_id": 3,
+        "location": "City Art Museum, Downtown",
+        "is_remote": false,
+        "description": "Share your passion for art and culture as a volunteer docent at our city's premier art museum. Docents lead tours, provide information about exhibits, and enhance visitors' museum experience through education and engagement.\n\nThis volunteer role is ideal for art enthusiasts who enjoy public speaking and want to help make art accessible and meaningful to diverse audiences.",
+        "responsibilities": "Lead guided tours for visitors of various ages and backgrounds\nLearn about current and permanent exhibitions\nAnswer visitor questions about artwork and the museum\nAssist with special events and educational programs\nProvide a welcoming presence in gallery spaces",
+        "requirements": "Strong interest in art and culture (formal art education not required)\nExcellent communication and public speaking skills\nAvailability during museum hours, including some weekends\nWillingness to complete docent training program (provided)\nMinimum 1-year commitment after training\nProfessional demeanor and appearance",
+        "benefits": "Comprehensive training in art history and museum education\nPrivate exhibition previews and behind-the-scenes access\nDiscount at museum shop and cafe\nInvitations to special events and lectures\nOngoing learning opportunities with curators and artists",
+        "commitment": "8-12 hours per month, including training",
+        "duration": "Training (3 months) plus 1-year minimum commitment",
+        "start_date": "2023-03-01",
+        "application_deadline": "2023-02-01",
+        "is_featured": false,
+        "created_at": "2023-01-15 09:30:00"
+    }
+]

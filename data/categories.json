@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Education & Literacy",
+      "description": "Opportunities related to teaching, tutoring, mentoring, and supporting educational initiatives."
+    },
+    {
+      "id": 2,
+      "name": "Community Service",
+      "description": "General community support activities including food banks, disaster relief, and neighborhood improvement."
+    },
+    {
+      "id": 3,
+      "name": "Arts & Culture",
+      "description": "Opportunities related to museums, performing arts, cultural preservation, and creative expression."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "description": "Tech-focused volunteer roles including development, digital literacy training, and technical support."
+    },
+    {
+      "id": 5,
+      "name": "Environment",
+      "description": "Environmental conservation, sustainability, gardening, and outdoor recreation opportunities."
+    },
+    {
+      "id": 6,
+      "name": "Animal Welfare",
+      "description": "Opportunities to help animals through shelters, wildlife rehabilitation, and advocacy."
+    },
+    {
+      "id": 7,
+      "name": "Health & Wellness",
+      "description": "Health-related volunteering including hospital support, mental health initiatives, and wellness programs."
+    },
+    {
+      "id": 8,
+      "name": "Advocacy",
+      "description": "Opportunities focused on raising awareness and driving change for various social causes."
+    }
+  ]
+  

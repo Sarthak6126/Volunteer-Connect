@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "name": "Green India Foundation",
+        "primary_category_id": 5,
+        "categories": [
+            5,
+            3
+        ],
+        "location": "New Delhi",
+        "description": "Green India Foundation is dedicated to environmental conservation through extensive plantation, pollution control, waterbody restoration, and climate change awareness campaigns.",
+        "mission": "To engage citizens in environmental stewardship and restore ecological balance across India.",
+        "impact": "Planted over 1 million trees, restored 50+ waterbodies, and conducted 100+ awareness campaigns.",
+        "website": "https:\/\/www.greenif.org",
+        "email": "info@greenif.org",
+        "phone": "+91 84477 50637",
+        "founded_year": "2009",
+        "social_media": "{\"facebook\":\"https:\/\/facebook.com\/greenindiaf\", \"twitter\":\"https:\/\/twitter.com\/greenindiaf\"}"
+    },
+    {
+        "id": 2,
+        "name": "Youth Empowerment Foundation of India",
+        "primary_category_id": 1,
+        "categories": [
+            1,
+            3
+        ],
+        "location": "Vellore, Tamil Nadu",
+        "description": "YEFI empowers youth through vocational training, leadership development, and community engagement programs.",
+        "mission": "To build and influence young people's leadership through technical education, life skills, and civic participation.",
+        "impact": "Trained 10,000+ youth, facilitated 200+ leadership workshops, and supported 50+ community projects.",
+        "website": "https:\/\/www.youthempowermentfoundationofindia.com",
+        "email": "vadivelanspw@gmail.com",
+        "phone": "+91 63796 37864",
+        "founded_year": "2015",
+        "social_media": "{\"facebook\":\"https:\/\/facebook.com\/youthempowermentfoundationofindia\", \"twitter\":\"https:\/\/twitter.com\/yefindia\"}"
+    },
+    {
+        "id": 3,
+        "name": "Education First India",
+        "primary_category_id": 1,
+        "categories": [
+            1
+        ],
+        "location": "Pune, Maharashtra",
+        "description": "EFC India provides free academic support to students from under-resourced communities through virtual tutoring and educational resources.",
+        "mission": "To narrow the achievement gap by providing free, accessible, high-quality tutoring to students who need it most.",
+        "impact": "Provided over 20,000 hours of tutoring, served 1,500+ students, and recruited 500+ volunteer tutors.",
+        "website": "https:\/\/efcindia.org",
+        "email": "startup@efcindia.org",
+        "phone": "+91-7709003344",
+        "founded_year": "2010",
+        "social_media": "{\"facebook\":\"https:\/\/facebook.com\/efcindia\", \"twitter\":\"https:\/\/twitter.com\/efcindia\"}"
+    },
+    {
+        "id": 4,
+        "name": "Happy Tails Foundation",
+        "primary_category_id": 6,
+        "categories": [
+            6
+        ],
+        "location": "Mumbai, Maharashtra",
+        "description": "Happy Tails Foundation is dedicated to the rescue, rehabilitation, and rehoming of stray and abandoned animals.",
+        "mission": "To provide compassionate care and shelter for homeless animals while working to find them permanent, loving homes.",
+        "impact": "Rescued and rehomed over 6,000 animals, provided 24\/7 ambulance services, and conducted 500+ adoption events.",
+        "website": "https:\/\/happyytails.com",
+        "email": "contact@happyytails.com",
+        "phone": "+91 98765 43210",
+        "founded_year": "2015",
+        "social_media": "{\"facebook\":\"https:\/\/facebook.com\/happyytails\", \"twitter\":\"https:\/\/twitter.com\/happyytails\"}"
+    },
+    {
+        "id": 5,
+        "name": "Community Food Bank India",
+        "primary_category_id": 2,
+        "categories": [
+            2,
+            7
+        ],
+        "location": "Hyderabad, Telangana",
+        "description": "Community Food Bank India combats hunger by collecting, storing, and distributing food to those in need.",
+        "mission": "To alleviate hunger in our community by providing nutritious food to those in need.",
+        "impact": "Distributed over 3 million kilograms of food, served 15,000+ individuals monthly, and operated 20+ food pantries.",
+        "website": "https:\/\/www.communityfoodbankindia.org",
+        "email": "help@communityfoodbankindia.org",
+        "phone": "+91 99999 88888",
+        "founded_year": "2000",
+        "social_media": "{\"facebook\":\"https:\/\/facebook.com\/communityfoodbankindia\", \"twitter\":\"https:\/\/twitter.com\/communityfoodbankindia\"}"
+    },
+    {
+        "id": 6,
+        "name": "Senior Support Services India",
+        "primary_category_id": 2,
+        "categories": [
+            2,
+            7
+        ],
+        "location": "Bengaluru, Karnataka",
+        "description": "Senior Support Services India assists older adults in maintaining independence through various support programs.",
+        "mission": "To enhance the lives of seniors by providing support services, fostering social connections, and advocating for their needs.",
+        "impact": "Served 1,000+ seniors annually, provided 25,000+ rides, and delivered 30,000+ meals to homebound seniors.",
+        "website": "https:\/\/www.seniorsupportservicesindia.org",
+        "email": "info@seniorsupportservicesindia.org",
+        "phone": "+91 88888 77777",
+        "founded_year": "2005",
+        "social_media": "{\"facebook\":\"https:\/\/facebook.com\/seniorsupportservicesindia\", \"twitter\":\"https:\/\/twitter.com\/seniorsupportservicesindia\"}"
+    },
+    {
+        "id": 7,
+        "name": "Trails and Wilderness Coalition India",
+        "primary_category_id": 5,
+        "categories": [
+            5,
+            3
+        ],
+        "location": "Dehradun, Uttarakhand",
+        "description": "Trails and Wilderness Coalition India focuses on the conservation and maintenance of hiking trails and natural areas. We advocate for sustainable tourism, lead guided treks, organize cleanup drives, and educate local communities about environmental protection.",
+        "mission": "To protect and enhance our region's trail systems and wilderness areas through stewardship, advocacy, education, and community engagement. We strive to preserve natural habitats while making them accessible to all.",
+        "impact": "Built and maintained 100+ kilometers of trails across Uttarakhand and Himachal Pradesh, organized 200+ volunteer events, educated 5,000+ community members, and helped conserve over 1,500 acres of forest land through policy advocacy and partnerships.",
+        "website": "https:\/\/www.trailsandwildernessindia.org",
+        "email": "contact@trailsandwildernessindia.org",
+        "phone": "+91 77777 66666",
+        "founded_year": "2010",
+        "social_media": {
+            "facebook": "https:\/\/facebook.com\/trailsandwildernessindia",
+            "twitter": "https:\/\/twitter.com\/trailswildernessin",
+            "instagram": "https:\/\/instagram.com\/trailsandwildernessindia"
+        }
+    }
+]
