@@ -61,7 +61,7 @@ $organizations = [
 ];
 
 // Include the header
-// include 'includes/header.php';
+include 'OpporHead.php';
 ?>
 
 <!-- Custom CSS for animations -->
@@ -350,7 +350,7 @@ $organizations = [
             </div>
             <div class="mt-8">
                 <div class="w-16 h-16 rounded-full overflow-hidden mx-auto mb-3 border-2 border-white shadow-md">
-                    <img src="/api/placeholder/150/150" alt="Testimonial" class="w-full h-full object-cover">
+                    <img src="https://media.istockphoto.com/id/1306460911/vector/volunteers-needed-symbol-volunteering-service-sign-vector.jpg?s=612x612&w=0&k=20&c=BXOz799EABnRKB4Is8AUmCdGRhoq33D1_-EENxl_mHY=" alt="Testimonial" class="w-full h-full object-cover">
                 </div>
                 <p class="font-semibold text-lg">Sarah Johnson</p>
                 <p class="text-teal-200">Environmental Volunteer</p>
@@ -416,7 +416,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <?php
 // Include the footer
-// include 'footer.php';
+include 'OpporFooter.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

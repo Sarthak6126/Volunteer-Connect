@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= isset($pageTitle) ? $pageTitle : 'Volunteer Connect' ?></title>
+    <title>Volunteer Connect</title>
     
     <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -61,44 +61,42 @@
             <div id="mobileMenu" class="md:flex items-center mt-4 md:mt-0 hidden md:block">
                 <ul class="flex flex-col md:flex-row md:items-center md:space-x-8">
                     <li>
-                        <a href="index.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300 <?= ($currentPage == 'home') ? 'text-teal-600 font-semibold' : '' ?>">Home</a>
+                        <a href="index.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300">Home</a>
                     </li>
                     <li>
-                        <a href="opportunities.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300 <?= ($currentPage == 'opportunities') ? 'text-teal-600 font-semibold' : '' ?>">Opportunities</a>
+                        <a href="opportunities.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300">Opportunities</a>
                     </li>
                     <li>
-                        <a href="organization-details.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300 <?= ($currentPage == 'organizations') ? 'text-teal-600 font-semibold' : '' ?>">Organizations</a>
+                        <a href="organization-details.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300">Organizations</a>
                     </li>
                     <li>
-                        <a href="about.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300 <?= ($currentPage == 'about') ? 'text-teal-600 font-semibold' : '' ?>">About</a>
+                        <a href="about.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300">About</a>
                     </li>
                     <li>
-                        <a href="contact.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300 <?= ($currentPage == 'contact') ? 'text-teal-600 font-semibold' : '' ?>">Contact</a>
+                        <a href="contact.php" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300">Contact</a>
                     </li>
-                    <?php if (isLoggedIn()): ?>
+                    <!-- Change this section based on login status -->
+                    <!-- Assuming the user is logged in, adjust this part manually -->
                     <li class="relative group">
-                        <a href="#" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300 <?= ($currentPage == 'account') ? 'text-teal-600 font-semibold' : '' ?>">
+                        <a href="#" class="block py-2 text-gray-700 hover:text-teal-600 transition duration-300">
                             <i class="fas fa-user-circle mr-1"></i> Account
                         </a>
                         <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10 hidden group-hover:block">
                             <a href="profile.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">My Profile</a>
                             <a href="my-applications.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">My Applications</a>
                             <div class="border-t border-gray-100"></div>
-                            <a href="logout.php" class="block px-4 py-2 text-red-500 hover:bg-gray-100">Logout</a>
+                            <a href="logout.php" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Logout</a>
                         </div>
                     </li>
-                    <?php else: ?>
+                    <!-- If user is not logged in, display login/signup buttons -->
                     <li class="md:ml-4">
-                        <a href="login.php" class="inline-block py-2 px-4 border border-teal-600 text-teal-600 rounded hover:bg-teal-600 hover:text-white transition duration-300 <?= ($currentPage == 'login') ? 'bg-teal-600 text-white' : '' ?>">Login</a>
+                        <a href="login.php" class="inline-block py-2 px-4 border border-teal-600 text-teal-600 rounded hover:bg-teal-600 hover:text-white transition duration-300">Login</a>
                     </li>
                     <li class="md:ml-2">
-                        <a href="signup.php" class="inline-block py-2 px-4 bg-teal-600 text-white rounded hover:bg-teal-700 transition duration-300 <?= ($currentPage == 'signup') ? 'bg-teal-700' : '' ?>">Sign Up</a>
+                        <a href="signup.php" class="inline-block py-2 px-4 bg-teal-600 text-white rounded hover:bg-teal-700 transition duration-300">Sign Up</a>
                     </li>
-                    <?php endif; ?>
                 </ul>
-                <!-- <button class="border-2 border-white rounded-full px-4 py-1 text-white bg-gray-800 w-fit ml-4" id="mod-lap ">Dark</button> -->
             </div>
         </div>
     </nav>
 </header>
-
