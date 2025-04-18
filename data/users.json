@@ -39,34 +39,21 @@
     },
     {
         "id": 3,
-        "email": "sarthak1@gmail.com",
-        "password": "$2y$10$Klz0ZEcZLusl0MCZwTvi7uPGIhoZ6fo2yd8ez0hoGjWM0ZM1k3w9u",
-        "first_name": "sarthak",
-        "last_name": "Beri",
-        "user_type": "volunteer",
-        "created_at": "2025-04-16 23:17:35",
-        "profile": []
-    },
-    {
-        "id": 4,
-        "email": "sarthak@gmail.com",
-        "password": "$2y$10$R9uwlrxIRoG0EZusljlsAeZCWGjjyj9XVIba0XJ1P9y3tCXYy3\/iO",
-        "first_name": "sarthak",
-        "last_name": "beri",
-        "user_type": "volunteer",
-        "created_at": "2025-04-17 00:47:56",
-        "profile": []
-    },
-    {
-        "id": 5,
         "email": "ashish@gmail.com",
-        "password": "$2y$10$H9eacqXgpEpnsNVQqskL\/.20L3sjyJgZ1zu8wrWlT\/86O8hHSinle",
-        "first_name": "sart",
-        "last_name": "beri",
-        "user_type": "organization",
-        "created_at": "2025-04-17 00:54:44",
+        "password": "$2y$10$E\/v\/NZxqWv2acVMxSPiNuO9FVkPocMZxMHrsi5ZsnCQlr6AUnSwWW",
+        "first_name": "Ashish",
+        "last_name": "Sharma",
+        "user_type": "volunteer",
+        "created_at": "2025-04-17 10:13:28",
         "profile": {
-            "organization_id": "1"
+            "bio": "I am a volunteer",
+            "location": "Ahmedabad, Gujarat",
+            "availability": "Monday",
+            "skills": [
+                "12th Pass",
+                " btech"
+            ],
+            "interests": []
         }
     }
 ]

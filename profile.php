@@ -136,7 +136,7 @@ $currentPage = "account";
                             <div class="p-6 border-b">
                                 <div class="flex justify-between">
                                     <h3 class="text-xl font-bold text-gray-800">Profile Information</h3>
-                                    <a href="#" class="text-teal-600 hover:text-teal-800">
+                                    <a href="edit-profile.php" class="text-teal-600 hover:text-teal-800">
                                         <i class="fas fa-edit"></i> Edit
                                     </a>
                                 </div>

@@ -987,3 +987,62 @@ function logoutUser() {
     $_SESSION = array();
     session_destroy();
 }
+
+/**
+ * Save user data to JSON file
+ * 
+ * @param array $userData The user data to save
+ * @return bool Whether the save was successful
+ */
+function saveUser($userData) {
+    // Get users data
+    $usersFile = DATA_PATH . 'users.json';
+    if (!file_exists($usersFile)) {
+        return false;
+    }
+    
+    $json = file_get_contents($usersFile);
+    $users = json_decode($json, true);
+    
+    if (!is_array($users)) {
+        return false;
+    }
+    
+    // Find and update the user
+    $userUpdated = false;
+    foreach ($users as $key => $user) {
+        if ($user['email'] === $userData['email']) {
+            // Create the user data structure in the desired order
+            $users[$key] = [
+                'id' => $user['id'],  // Ensure 'id' comes first
+                'email' => $userData['email'],
+                'password' => isset($userData['password']) ? $userData['password'] : $user['password'], // Retain the old password if not updated
+                'first_name' => $userData['first_name'],
+                'last_name' => $userData['last_name'],
+                'user_type' => $userData['user_type'],
+                'created_at' => $user['created_at'], // Retain 'created_at' if it’s not being updated
+                'profile' => $userData['profile']
+            ];
+            
+            $userUpdated = true;
+            break;
+        }
+    }
+    
+    if (!$userUpdated) {
+        return false;
+    }
+    
+    // Save updated users data in JSON format
+    $json = json_encode($users, JSON_PRETTY_PRINT);
+    return file_put_contents($usersFile, $json) !== false;
+}
+
+
+
+
+
+
+
+
+
