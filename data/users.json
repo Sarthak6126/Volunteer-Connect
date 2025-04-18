@@ -55,5 +55,17 @@
             ],
             "interests": []
         }
+    },
+    {
+        "id": 4,
+        "email": "swagatamkashi@gmail.com",
+        "password": "$2y$10$Ud4z7gtP6C.xJOyHkoHsKOV8mcMkAMoS3.fkE1WGW60x\/k77X8hMy",
+        "first_name": "Swagatam Kashi",
+        "last_name": "Foundation",
+        "user_type": "organization",
+        "created_at": "2025-04-18 03:03:42",
+        "profile": {
+            "organization_id": "6"
+        }
     }
 ]

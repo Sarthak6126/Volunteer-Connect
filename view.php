@@ -41,7 +41,7 @@ if (array_keys($data) !== range(0, count($data) - 1)) {
 <div class="container mx-auto px-6 py-10">
   <div class="mb-6 flex items-center justify-between">
     <h1 class="text-2xl font-bold text-blue-700"><?= ucfirst($file) ?> Data</h1>
-    <a href="index.php" class="text-blue-500 hover:underline">← Back to Dashboard</a>
+    <a href="admindashboard.php" class="text-blue-500 hover:underline">← Back to Dashboard</a>
   </div>
 
   <?php if (empty($data)): ?>
