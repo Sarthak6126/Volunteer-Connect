@@ -126,5 +126,49 @@
             "twitter": "https:\/\/twitter.com\/trailswildernessin",
             "instagram": "https:\/\/instagram.com\/trailsandwildernessindia"
         }
+    },
+    {
+        "id": 123,
+        "name": "Helth Care",
+        "primary_category_id": 2,
+        "categories": [
+            2
+        ],
+        "location": "Delhi, NCR",
+        "description": "we focus on human health",
+        "mission": "we focus on human health",
+        "impact": "we focus on human health",
+        "website": "http:\/\/localhost\/PHPScript\/VOLUNTEER%20PROJECTN\/addorg.php",
+        "email": "ashish@gmail.com",
+        "phone": "+916266928927",
+        "founded_year": "2003",
+        "social_media": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+        },
+        "date_added": "2025-04-19 18:32:50"
+    },
+    {
+        "id": 12345,
+        "name": "helthIndia",
+        "primary_category_id": 2,
+        "categories": [
+            2
+        ],
+        "location": "Jaipur, Rajasthan",
+        "description": "health",
+        "mission": "health",
+        "impact": "human health",
+        "website": "",
+        "email": "ashish@gmail.com",
+        "phone": "+916266928927",
+        "founded_year": "2001",
+        "social_media": {
+            "facebook": "",
+            "twitter": "",
+            "instagram": ""
+        },
+        "date_added": "2025-04-20 07:28:35"
     }
 ]
